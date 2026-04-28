@@ -165,6 +165,54 @@ scikeras
 imbalanced-learn
 ```
 
+## How to Run
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/leairt/Room-Occupancy-Classification.git
+cd Room-Occupancy-Classification
+```
+
+### 2. Create a virtual environment (recommended)
+```bash
+python -m venv venv
+```
+
+Activate it:
+
+**Windows:**
+```bash
+venv\Scripts\activate
+```
+
+**Mac/Linux:**
+```bash
+source venv/bin/activate
+```
+
+### 3. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Start Jupyter Notebook
+```bash
+jupyter notebook
+```
+
+This will open a browser window with the project directory.
+
+### 5. Run the notebook
+- Open the `.ipynb` file (e.g. `Room_Occupancy_Classification.ipynb`)
+- Run cells sequentially using:
+  - ▶ Run button, or  
+  - `Shift + Enter`
+
+### ⚡ Notes
+- Make sure dataset files are in the correct paths expected by the notebook
+- You can also run this in Google Colab by uploading the `.ipynb` file
+- Training time depends on your hardware
+
 ## Technical Details
 
 ### Model Configuration
